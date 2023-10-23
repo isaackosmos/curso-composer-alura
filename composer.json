@@ -13,8 +13,11 @@
         "symfony/css-selector": "^6.3"
     },
     "autoload": {
+        "files": [
+            "functions.php"
+        ],
         "psr-4": {
-            "isaackosmos\\BuscadorDeCursos\\": "src/"
+            "isaackosmos\\CoursesSearch\\": "src/"
         }
     },
     "require-dev": {
