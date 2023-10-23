@@ -16,5 +16,5 @@ $coursesSearch = new CoursesSearch($httpClient, $crawler);
 $courses = $coursesSearch->search('cursos-online-programacao/php');
 
 foreach ($courses as $course) {
-    showMessage($curso);
+    showMessage($course);
 }

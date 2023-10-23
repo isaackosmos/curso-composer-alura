@@ -36,5 +36,9 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificacoes do codigo. PHPCS"
-    }
+    },
+    "license": "GPL-3.0-or-later",
+    "bin": [
+        "get-courses"
+    ]
 }
